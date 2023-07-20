@@ -6,6 +6,10 @@ TagManager:
   tags:
   - coca
   - orange
+  - chocolate
+  - mango
+  - sandwich
+  - watermelon
   layers:
   - Default
   - TransparentFX

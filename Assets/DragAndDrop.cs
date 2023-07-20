@@ -33,6 +33,8 @@ public class DragAndDrop : MonoBehaviour
         _dragging = false;
         if (gameObject.tag == collision.gameObject.tag)
         {
+            VendingGameManager.Instance.levels[VendingGameManager.Instance.GetCurrentIndex()].items.Remove(this);
+            VendingGameManager.Instance.levels[VendingGameManager.Instance.GetCurrentIndex()].items.Remove(collision.gameObject.GetComponent<DragAndDrop>());
             Destroy(gameObject);
             Destroy(collision.gameObject);
             GameObject explosion = Instantiate(particleVFX, transform.position, transform.rotation);

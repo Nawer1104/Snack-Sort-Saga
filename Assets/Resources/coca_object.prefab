@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8634941918892882240}
   - component: {fileID: 8609997933498102602}
   - component: {fileID: 7729978372448154894}
+  - component: {fileID: -5128824283708517610}
   m_Layer: 0
   m_Name: coca_object
   m_TagString: coca
@@ -145,3 +146,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleVFX: {fileID: 151244, guid: 8368975de5593844bbfaf74e342fb326, type: 3}
+--- !u!114 &-5128824283708517610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3649193430381145591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d612e20e473081b41a5e154d287780bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
